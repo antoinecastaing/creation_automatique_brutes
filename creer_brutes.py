@@ -8,7 +8,7 @@ from playwright.sync_api import sync_playwright
 username = "username"
 password = "password"
 user_id = int(sys.argv[1])
-nombre_essais = 40
+nombre_essais = 50
 bonus_legendaires = ['flail', 'leek', 'piopio', 'whip', 'chef', 'flashFlood', 'hypnosis', 'immortality', 'reconnaissance', 'sabotage', 'untouchable', 'bear', 'panther']
 urls_deja_interceptees = set()
 
