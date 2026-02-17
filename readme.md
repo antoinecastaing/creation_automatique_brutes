@@ -15,13 +15,13 @@
 
 2 - Choisir un numéro d'identifiant qui sera incrémenté pour chaque brute, par exemple choississons 69.
 
-3 - Créer des brutes avec la commande "python3 creer_brutes.py 69" 
+3 - Créer des brutes avec la commande "python3 creer_brutes.py 69".
     Par défaut, 50 brutes seront créées, ici de username69 à username119.
     Le nombre de brutes créées par défaut peut être changé en modifiant la variable "nombre_essaies" du fichier.
     Il est aussi possible de rendre nombre_essaies dynamique en utilisant argv.
     Les mauvaises brutes ne sont pas enregistrées et les talents sont envoyés dans le fichier camp_talents.json
 
-4 - Entraîner les talents avec la commande "python3 entrainer_talents.py"
+4 - Entraîner les talents avec la commande "python3 entrainer_talents.py".
     Choisir les bonus à chaque niveau en tapant "a" ou "b"
     Envoyer les mauvaises brutes au cimetière après l'entraînement en tapant sur entrée.
     Envoyer les exceptions au camp d'exception après l'entraînement en tapant n'importe quoi.
