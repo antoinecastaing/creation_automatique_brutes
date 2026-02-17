@@ -17,7 +17,7 @@
 
 3 - Créer des brutes avec la commande "python3 creer_brutes.py 69" 
     Par défaut, 50 brutes seront créées, ici de username69 à username119.
-    Le nombre de brutes créé par défaut peut être changé en modifiant la variable "nombre_essaies" du fichier.
+    Le nombre de brutes créées par défaut peut être changé en modifiant la variable "nombre_essaies" du fichier.
     Il est aussi possible de rendre nombre_essaies dynamique en utilisant argv.
     Les mauvaises brutes ne sont pas enregistrées et les talents sont envoyés dans le fichier camp_talents.json
 
