@@ -1,11 +1,16 @@
-Ce projet sert à:
+### Objectifs du projet
 - Créer des brutes
 - Les filtrer pour ne garder que les talents
 - Faire monter les talents niveau 3
 - Les filtrer une seconde fois pour ne garder que les exceptions
 
 
+#### Dépendances:
+- Installer le module playwright avec la commande "pip install playwright".
+- Installer les dépendances de playwright avec la commande qu'ils indiquent.
 
+
+#### Se servir du projet
 1 - Choisir un nom et un mot de passe et les mettre dans les variables "username" et "password" des deux programmes.
 
 2 - Choisir un numéro d'identifiant qui sera incrémenté pour chaque brute, par exemple choississons 69.
