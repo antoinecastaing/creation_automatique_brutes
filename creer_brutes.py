@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 username = "username"
 password = "password"
 user_id = int(sys.argv[1])
-nombre_essais = 50
+nombre_essais = int(sys.argv[2])
 bonus_legendaires = ['flail', 'leek', 'piopio', 'whip', 'chef', 'flashFlood', 'hypnosis', 'immortality', 'reconnaissance', 'sabotage', 'untouchable', 'bear', 'panther']
 
 
@@ -25,7 +25,7 @@ def creer_compte_et_brute():
 
 def creer_compte(page):
 
-    print(f"\nCréation d'un compte.", f"({essai + 1}/{nombre_essais})")
+    #print(f"\nCréation d'un compte. ({essai + 1}/{nombre_essais})")
     page.goto("https://eternaltwin.org/register/username", wait_until="networkidle")
     page.wait_for_selector('input[name="username"]')
     page.fill('input[name="username"]', f"{username}{user_id}")
@@ -42,7 +42,7 @@ def se_connecter(page):
 
 def creer_brute(page):
 
-    print(f"Création de {username.capitalize()}{user_id}.")
+    #print(f"Création de {username.capitalize()}{user_id}.")
 
     page.wait_for_selector('svg[data-testid="PersonIcon"]', state="visible")
     field = page.locator("input.css-15yrxak")
@@ -59,7 +59,7 @@ def recupere_bonus_brute(page):
 
     bonus, = next(i for i in (reponse["weapons"], reponse["skills"], reponse["pets"]) if i)
 
-    print(f"Tu as obtenu: {bonus.capitalize()} {"🔥🔥🔥🔥🔥" if bonus in bonus_legendaires else "👎"}")
+    print(f"Une brute a obtenu: {bonus.capitalize()} {"🔥🔥🔥🔥🔥" if bonus in bonus_legendaires else "👎"}")
 
     return bonus
 
