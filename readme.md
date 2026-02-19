@@ -13,12 +13,9 @@
 #### Se servir du projet
 1 - Choisir un nom et un mot de passe et les mettre dans les variables "username" et "password" des deux programmes.
 
-2 - Choisir un numéro d'identifiant qui sera incrémenté pour chaque brute, par exemple choississons 69.
-
-3 - Créer des brutes avec la commande "python3 creer_brutes.py 69".
-    Par défaut, 50 brutes seront créées, ici de username69 à username119.
-    Le nombre de brutes créées par défaut peut être changé en modifiant la variable "nombre_essaies" du fichier.
-    Il est aussi possible de rendre nombre_essaies dynamique en utilisant argv.
+2 - Créer des brutes avec la commande "python3 machine.py <nombre d'instances> <nombre de brutes par instance> <id de départ>".
+    Par exemple, la commande "python3 machine.py 3 10 2500" va lancer 3 instances qui crééront chacune 10 brutes, en commençant à l'id 2500.
+    30 brutes seront créées d'id 2500 à 2529.
     Les mauvaises brutes ne sont pas enregistrées et les talents sont envoyés dans le fichier camp_talents.json
 
 4 - Entraîner les talents avec la commande "python3 entrainer_talents.py".
