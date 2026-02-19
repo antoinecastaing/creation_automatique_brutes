@@ -2,10 +2,6 @@ import sys
 import json
 from playwright.sync_api import sync_playwright
 
-password = "Bonjoures123!"
-
-
-
 def monter_niveau():
 
     print(f"\n{brute.capitalize()} monte de niveau ! 🔥🔥🔥")
