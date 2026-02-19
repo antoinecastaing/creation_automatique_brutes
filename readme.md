@@ -15,10 +15,10 @@
 
 2 - Créer des brutes avec la commande "python3 machine.py 'nombre_instances' 'nombre_brutes_par_instance' 'id de départ'". <br />
     Par exemple, "python3 machine.py 3 10 2500" lancera 3 instances qui crééront chacune 10 brutes, en commençant à l'id 2500.<br />
-    30 brutes seront créées d'id 2500 à 2529.<br />
+    30 brutes seront créées, d'id 2500 à 2529.<br />
     Les mauvaises brutes ne sont pas enregistrées et les talents sont envoyés dans le fichier camp_talents.json
 
-4 - Entraîner les talents avec la commande "python3 entrainer_talents.py".
-    Choisir les bonus à chaque niveau en tapant "a" ou "b"
-    Envoyer les mauvaises brutes au cimetière après l'entraînement en tapant sur entrée.
+4 - Entraîner les talents avec la commande "python3 entrainer_talents.py". <br />
+    Choisir les bonus à chaque niveau en tapant "a" ou "b". <br />
+    Envoyer les mauvaises brutes au cimetière après l'entraînement en tapant sur entrée. <br />
     Envoyer les exceptions au camp d'exception après l'entraînement en tapant n'importe quoi.
