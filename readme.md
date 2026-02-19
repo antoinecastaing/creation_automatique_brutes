@@ -14,7 +14,7 @@
 1 - Choisir un nom et un mot de passe et les mettre dans les variables "username" et "password" des deux programmes.
 
 2 - Créer des brutes avec la commande "python3 machine.py <nombre d'instances> <nombre de brutes par instance> <id de départ>". <br />
-    Par exemple, la commande "python3 machine.py 3 10 2500" va lancer 3 instances qui crééront chacune 10 brutes, en commençant à l'id 2500.<br />
+    Par exemple, la commande "python3 machine.py 3 10 2500" lancera 3 instances qui crééront chacune 10 brutes, en commençant à l'id 2500.<br />
     30 brutes seront créées d'id 2500 à 2529.<br />
     Les mauvaises brutes ne sont pas enregistrées et les talents sont envoyés dans le fichier camp_talents.json
 
