@@ -2,7 +2,7 @@ import sys
 import json
 from playwright.sync_api import sync_playwright
 
-password = "password"
+password = "Bonjoures123!"
 
 
 
@@ -43,7 +43,7 @@ def aller_cellule():
     se_connecter(page)
 
 
-    print(f"Fin du combat.")
+    
     
 def acceder_au_jeu(page):
 
@@ -101,6 +101,8 @@ def combat():
     quit_fight = page.locator(f'span:has-text("{brute}\'s cell")')
     quit_fight.wait_for(state="visible")
     quit_fight.click()
+
+    print(f"Fin du combat.")
 
 
 
